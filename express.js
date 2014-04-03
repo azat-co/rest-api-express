@@ -2,7 +2,7 @@ var express = require('express')
   , mongoskin = require('mongoskin')
 
 var app = express()
-app.use(express.bodyParser())
+app.use([express.json(), express.urlencoded()])
 
 var db = mongoskin.db('localhost:27017/test', {safe:true});
 
