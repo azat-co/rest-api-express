@@ -1,5 +1,5 @@
 var superagent = require('superagent')
-var expect = require('expect.js')
+var expect = require('chai').expect
 
 describe('express rest api server', function(){
   var id
