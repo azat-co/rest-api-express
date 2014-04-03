@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/azat-co/rest-api-express.git"
   },
-  "author": "",
+  "author": "Azat Mardanov",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/azat-co/rest-api-express/issues"
