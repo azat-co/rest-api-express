@@ -1,0 +1,13 @@
+{
+  "name": "rest-api-express",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~3.3.5",
+    "mongoskin": "~0.6.1",
+    "superagent": "~0.17.0"
+  }
+}
