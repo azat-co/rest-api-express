@@ -1,8 +1,30 @@
 > Node.js REST API Example with MongoDB, Mongoskin, Express
 
-# Express.js 3.x
+# Express.js 4.x
 
 `master` branch
+
+Full tutorial: <http://webapplog.com/tutorial-node-js-and-mongodb-json-rest-api-server-with-mongoskin-and-express-js/>
+
+Brief instructions:
+
+```
+$ git clone git@github.com:azat-co/rest-api-express.git
+$ npm install
+$ node express.js
+```
+
+in a new window
+
+```
+$ mocha express.test.js
+```
+
+or (if you don't have mocha installed globally):
+
+```
+$ ./node_modules/mocha/bin/mocha express.test.js
+```
 
 # Express.js 3.x
 
@@ -25,7 +47,7 @@ in a new window
 $ mocha express.test.js
 ```
 
-or
+or (if you don't have mocha installed globally):
 
 ```
 $ ./node_modules/mocha/bin/mocha express.test.js
