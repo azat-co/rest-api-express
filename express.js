@@ -2,9 +2,10 @@ var express = require('express')
   , mongoskin = require('mongoskin')
 
 var app = express()
-app.use(express.bodyParser())
+app.use(express.json())
+app.use(express.urlencoded())
 
-var db = mongoskin.db('localhost:27017/test', {safe:true});
+var db = mongoskin.db('mongodb://@localhost:27017/test', {safe:true});
 
 app.param('collectionName', function(req, res, next, collectionName){
   req.collection = db.collection(collectionName)
