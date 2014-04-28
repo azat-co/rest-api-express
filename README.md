@@ -1,4 +1,4 @@
-> Node.js REST API Example with MongoDB, Mongoskin, Express
+> Node.js REST API Example with MongoDB, Mongoskin, Express 3 and 4
 
 # Express.js 4.x
 
