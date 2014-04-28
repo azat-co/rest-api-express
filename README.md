@@ -1,6 +1,6 @@
 > Node.js REST API Example with MongoDB, Mongoskin, Express
 
-# Express.js 3.x
+# Express.js 4.x
 
 `master` branch
 
