@@ -4,7 +4,7 @@
 
 `master` branch
 
-Full tutorial: <http://webapplog.com/tutorial-node-js-and-mongodb-json-rest-api-server-with-mongoskin-and-express-js/>
+Full tutorial: <http://webapplog.com/express-js-4-node-js-and-mongodb-rest-api-tutorial/>
 
 Brief instructions:
 
