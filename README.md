@@ -10,6 +10,7 @@ Brief instructions:
 
 ```
 $ git clone git@github.com:azat-co/rest-api-express.git
+$ cd rest-api-express 
 $ npm install
 $ node express.js
 ```
@@ -37,6 +38,7 @@ Brief instructions:
 
 ```
 $ git clone git@github.com:azat-co/rest-api-express.git
+$ cd rest-api-express 
 $ git checkout express3
 $ npm install
 $ node express.js
