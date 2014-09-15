@@ -4,12 +4,12 @@ var expect = require('expect.js')
 describe('express rest api server', function(){
   var id
 
-  it('post object', function(done){
+  it('posts an object', function(done){
     superagent.post('http://localhost:3000/collections/test')
       .send({ name: 'John'
         , email: 'john@rpjs.co'
       })
-      .end(function(e,res){
+      .end(function(e, res){
         // console.log(res.body)
         expect(e).to.eql(null)
         expect(res.body.length).to.eql(1)
