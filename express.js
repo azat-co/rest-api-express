@@ -44,7 +44,7 @@ app.put('/collections/:collectionName/:id', function(req, res, next) {
   })
 })
 
-app.del('/collections/:collectionName/:id', function(req, res, next) {
+app.delete('/collections/:collectionName/:id', function(req, res, next) {
   req.collection.removeById(req.params.id, function(e, result){
     if (e) return next(e)
     res.send((result===1)?{msg:'success'}:{msg:'error'})

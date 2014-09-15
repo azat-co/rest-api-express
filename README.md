@@ -9,8 +9,8 @@ Full tutorial: <http://webapplog.com/express-js-4-node-js-and-mongodb-rest-api-t
 Brief instructions:
 
 ```
-$ git clone git@github.com:azat-co/rest-api-express.git
-$ cd rest-api-express 
+$ git clone https://github.com/azat-co/rest-api-express.git
+$ cd rest-api-express
 $ npm install
 $ node express.js
 ```
@@ -37,8 +37,8 @@ Full tutorial: <http://webapplog.com/tutorial-node-js-and-mongodb-json-rest-api-
 Brief instructions:
 
 ```
-$ git clone git@github.com:azat-co/rest-api-express.git
-$ cd rest-api-express 
+$ git clone https://github.com/azat-co/rest-api-express.git
+$ cd rest-api-express
 $ git checkout express3
 $ npm install
 $ node express.js
