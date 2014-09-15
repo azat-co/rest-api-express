@@ -1,6 +1,6 @@
 {
   "name": "rest-api-express",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "express.js",
   "scripts": {
