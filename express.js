@@ -3,7 +3,8 @@ var express = require('express'),
   bodyParser = require('body-parser')
 
 var app = express()
-app.use(bodyParser())
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended: true}))
 
 var db = mongoskin.db('mongodb://@localhost:27017/test', {safe:true})
 
