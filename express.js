@@ -1,10 +1,12 @@
 var express = require('express'),
   mongoskin = require('mongoskin'),
   bodyParser = require('body-parser')
+  logger = require('morgan')
 
 var app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
+app.use(logger('dev'))
 
 var db = mongoskin.db('mongodb://@localhost:27017/test', {safe:true})
 
@@ -52,4 +54,7 @@ app.delete('/collections/:collectionName/:id', function(req, res, next) {
   })
 })
 
-app.listen(3000)
+app.listen(3000, function(){
+  console.log('Express server listening on port 3000')
+})
+
