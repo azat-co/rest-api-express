@@ -5,7 +5,7 @@
   "main": "express.js",
   "scripts": {
     "start": "node express.js",
-    "test": "mocha express.test.js"
+    "test": "./node_modules/mocha/bin/mocha express.test.js"
   },
   "repository": {
     "type": "git",
