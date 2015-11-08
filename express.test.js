@@ -78,4 +78,13 @@ describe('express rest api server', function(){
         done()
       })
   })
+  it('checks an removed object', function(done){
+    superagent.get('http://localhost:3000/collections/test/')
+      .end(function(e, res){
+        // console.log(res.body)
+        expect(e).to.eql(null)
+        expect(res.body.map(function (item){return item._id})).to.not.be(id)
+        done()
+      })
+  })
 })
