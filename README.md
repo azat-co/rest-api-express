@@ -27,6 +27,14 @@ Or, if you don't have mocha installed globally:
 $ ./node_modules/mocha/bin/mocha express.test.js
 ```
 
+You can use `package.json` commands:
+
+```
+$ npm start
+$ npm test
+```
+
+---
 
 # Express.js 3.x
 
